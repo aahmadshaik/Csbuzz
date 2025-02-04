@@ -227,16 +227,23 @@
     display: none;
   }
   .moreInfoImage {
-    /* margin: 40px;
+    margin: 40px;
     padding: 0;
     display: flex;
     justify-content: center;
     width: 350px;
-    height: 407px; */
-    display: none;
+    height: 407px;
+    /* display: none; */
   }
   .moreInfo {
     margin: 0 auto;
+  }
+  .workingSteps {
+    background: url("../assets/Group 1261154031.png") no-repeat center center /
+      cover;
+    width: 315px;
+    height: 1736px;
+    margin-left: 40px;
   }
   .moreData {
     /* border: 2px solid red; */
@@ -244,9 +251,9 @@
     height: max-content;
     /* margin: 50px; */
     padding: 20px;
-    left: 0;
-    top: 300px;
-    display: none;
+    left: 50px;
+    top: 200px;
+    /* display: none; */
   }
   .categoriesButton {
     /* width: 111px; */
