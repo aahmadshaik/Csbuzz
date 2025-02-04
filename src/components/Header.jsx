@@ -1,6 +1,6 @@
 import "../styles/Header.css";
 import Logo from "../assets/Logo.png";
-import loginLogo from "../assets/Login.png";
+import loginLogo from "../assets/login.png";
 import { useState } from "react";
 const Header = () => {
   const courses = [
