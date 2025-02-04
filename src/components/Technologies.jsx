@@ -2,7 +2,7 @@ import "../styles/Technologies.css";
 import ReactLogo from "../assets/reactLogo.png";
 import PythonLogo from "../assets/pythonLogo.png";
 import CssLogo from "../assets/cssLogo.png";
-import JsLogo from "../assets/JavaScriptLogo.png";
+import JsLogo from "../assets/javaScriptLogo.png";
 import HtmlLogo from "../assets/htmlLogo.png";
 
 const Technologies = () => {
