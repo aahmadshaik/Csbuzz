@@ -1,0 +1,276 @@
+.workingSection {
+  background: url("../assets/background 2.png") no-repeat center center / cover;
+  height: 2100px;
+  width: 100%;
+  /* position: relative; */
+}
+.workContainer {
+  padding: 40px;
+  margin: 0 auto;
+  /* margin-top: 80px; */
+  width: 90%;
+}
+.workContainerHeading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #072f53;
+}
+.workContainerPara {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.workingSteps {
+  display: flex;
+  justify-content: center;
+}
+.workingStepsImage {
+  width: 1200px;
+
+  height: 500px;
+}
+.technologies-container {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px); /* 3 boxes per row */
+  gap: 30px; /* Adjust the space between the boxes */
+  justify-content: center;
+  padding: 20px;
+}
+
+.technologies {
+  /* width: 317px; */
+  /* height: 399px; */
+  background-color: #f4f4f482; /* Example background color */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* padding: 15px; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for the boxes */
+}
+.technologiesImageBg {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 60px;
+  object-fit: fill;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+.technologiesImage {
+  /* background-color: #131313; */
+  width: 51px;
+  height: 58px;
+  /* object-fit: fill;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 0px 0px; */
+}
+.technologiesData {
+  padding: 20px;
+}
+.technologiesHeading {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.technologiesPara {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.moreData {
+  padding: 30px;
+  width: 600px;
+  height: 280px;
+  top: 3411.07px;
+  left: 550px;
+  gap: 0px;
+  opacity: 0px;
+  background: #ffffff;
+  margin: 0;
+  /* padding: 0; */
+}
+
+.categoriesButton {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  border: none;
+  width: max-content;
+  height: 40px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 5px;
+  opacity: 0px;
+  background: #fbc108;
+  color: #072f53;
+}
+.categoriesHeading {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #072f53;
+}
+.categoriesPara {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #131313;
+}
+.categoriesMore {
+  border: none;
+  width: 120px;
+  height: 30px;
+  /* padding: 10px 30px 10px 30px; */
+  gap: 10px;
+  border-radius: 45px;
+  opacity: 0px;
+  background: #fbc108;
+  color: #072f53;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.2px;
+  /* text-align: left; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.moreInfoImage {
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.moreInfo {
+  position: relative;
+}
+.moreImageContainer {
+  position: relative;
+  max-width: 600px;
+}
+.moreData {
+  position: absolute;
+  top: 0;
+  margin-top: 170px;
+  left: 200;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px -3px #0000001a;
+
+  box-shadow: 0px 4px 6px 0px #0000000d;
+}
+
+@media (max-width: 480px) {
+  .workingSection {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    height: max-content;
+  }
+  .workContainerHeading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .workContainer {
+    /* padding: 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    /* margin: 0; */
+    /* margin-bottom: 400px; */
+  }
+  .workContainerPara {
+    /* margin: 0 auto; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 315px;
+  }
+  .workingStepsImage {
+    display: none;
+  }
+  .technologies-container {
+    display: none;
+  }
+  .moreInfoImage {
+    /* margin: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 407px; */
+    display: none;
+  }
+  .moreInfo {
+    margin: 0 auto;
+  }
+  .moreData {
+    /* border: 2px solid red; */
+    width: 290px;
+    height: max-content;
+    /* margin: 50px; */
+    padding: 20px;
+    left: 0;
+    top: 300px;
+    display: none;
+  }
+  .categoriesButton {
+    /* width: 111px; */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .categoriesHeading {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .categoriesPara {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}

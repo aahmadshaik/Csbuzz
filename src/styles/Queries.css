@@ -1,0 +1,68 @@
+.queriesSection {
+  margin-top: 100px;
+}
+.queriesHeading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  gap: 0px;
+  opacity: 0px;
+  background: url("../assets/Frame 30.png") no-repeat center center / cover;
+}
+.queriesHeading h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.queriesPara p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #072f53;
+}
+.queriesList ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.queriesList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 90%;
+  /* margin: 40px; */
+  margin-top: 20px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #072f53;
+  border-top: 2px solid rgba(128, 128, 128, 0.224);
+}
+.WrapIcon {
+  width: 27px;
+  height: 29px;
+}
+@media (max-width: 480px) {
+  .queriesSection {
+    display: none;
+  }
+}

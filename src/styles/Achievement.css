@@ -1,0 +1,61 @@
+.achievementSection {
+  background: url("../assets/Frame 30.png") no-repeat center center / cover;
+  width: 100%;
+  height: 100px;
+  top: 1362px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.achievementContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.achievementLogo {
+  width: 69.93px;
+  height: 70px;
+}
+
+.achievements {
+  text-align: center;
+}
+
+.achievementsHeading {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  /* text-align: left; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.achievementsCount {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  /* text-align: left; */
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fbc108;
+}
+
+@media (max-width: 480px) {
+  .achievementSection {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: auto;
+    gap: 100px;
+    padding: 20px;
+    /* margin: 20px; */
+  }
+}

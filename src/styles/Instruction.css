@@ -1,0 +1,139 @@
+.instructionSection {
+  background: url("../assets/Frame 30.png") no-repeat center center / cover;
+  width: 100%;
+  height: 594px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.heroImage {
+  margin-top: 150px;
+  width: 500px;
+  height: 450px;
+
+  gap: 0px;
+  opacity: 0px;
+}
+.instructionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 300px;
+  /* margin-left: 600px; */
+  gap: 0px;
+  opacity: 0px;
+  justify-content: center;
+}
+.instructionButton {
+  border: none;
+  width: 274px;
+  height: 56px;
+
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 5px;
+  opacity: 0px;
+  background: #fbc108;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.instructionHeading {
+  width: 642px;
+  height: 115px;
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.instructionpara {
+  width: 642px;
+  height: 108px;
+  top: 492px;
+  left: 732px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+@media (max-width: 480px) {
+  .instructionSection {
+    /* margin: 0; */
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: max-content;
+  }
+  .heroImage {
+    width: 308.97px;
+    height: 270.22px;
+    margin: 40px;
+  }
+  .instructionContainer {
+    width: 322px;
+    height: 214px;
+    top: 348px;
+    left: 33px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .instructionContainer button {
+    width: max-content;
+    height: 28px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.2px;
+    text-align: left;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    opacity: 0px;
+  }
+  .instructionContainer h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    max-width: 350px;
+  }
+  .instructionContainer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 315px;
+    height: 72px;
+    margin-bottom: 100px;
+  }
+}

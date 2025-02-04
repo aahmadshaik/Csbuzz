@@ -1,0 +1,13 @@
+.testimonialImage {
+  width: 100%;
+  height: 640px;
+
+  gap: 50px;
+  opacity: 0px;
+}
+
+@media (max-width: 480px) {
+  .testimonialImage {
+    display: none;
+  }
+}

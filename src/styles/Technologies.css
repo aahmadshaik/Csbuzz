@@ -1,0 +1,99 @@
+.technologiesSection {
+  width: 100%;
+  height: 180px;
+  gap: 0px;
+  opacity: 0px;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.technologiesSection h1 {
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  height: 90px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #072f53;
+}
+
+.technologiesSection ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  overflow-x: auto; /* This adds horizontal scrolling */
+  max-width: 100%; /* Ensure it doesn't overflow the section */
+  padding-bottom: 10px; /* Optional: Add some space at the bottom */
+}
+
+.technologiesSection ul li {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #072f53;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 80px;
+  /* top: 5px; */
+  /* left: 6px; */
+  padding: 5px;
+  gap: 20px;
+  border-radius: 5px;
+  opacity: 0px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px 0px #0000001a;
+  box-shadow: 0px 1px 2px -1px #0000001a;
+}
+@media (max-width: 480px) {
+  .technologiesSection {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    gap: 100px;
+  }
+  .technologiesHeading::after {
+    content: "Popular Olympiad Programming";
+    visibility: visible;
+    margin-top: 0;
+    padding: 0;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    /* text-align: center; */
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #072f53;
+    /* border: 2px solid red; */
+  }
+  .technologiesHeading {
+    content: "Popular Olympiad Programming";
+    visibility: hidden;
+
+    /* width: max-content; */
+    /* font-size: 400px; */
+  }
+}
