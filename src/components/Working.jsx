@@ -1,7 +1,7 @@
 import "../styles/Working.css";
 import WorkingImage from "../assets/Working.png";
 import CssLogo from "../assets/cssLogo.png";
-import JsLogo from "../assets/JavaScriptLogo.png";
+import JsLogo from "../assets/javaScriptLogo.png";
 import HtmlLogo from "../assets/htmlLogo.png";
 import Java from "../assets/Java.png";
 import Bootstrap from "../assets/Bootstrap.png";
